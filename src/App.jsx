@@ -1,13 +1,11 @@
-import { useState } from 'react'
+import React from 'react';
 import ImageCarousel from './ImageCarousel';
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
 
@@ -15,8 +13,7 @@ function App() {
 
  
     <header className="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
-      <div className="hidden md:flex justify-between items-center py-2 border-b text-sm py-3"
-        >
+      <div className="hidden md:flex justify-between items-center py-2 border-b text-sm py-3">
         <div className="">
           <ul className="flex text-white">
             <li>
